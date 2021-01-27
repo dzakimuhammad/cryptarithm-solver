@@ -97,8 +97,8 @@ import time
 
 nama_file = input("Masukkan nama file yang akan dibaca : ")     #input nama file
 text = open(nama_file,'r')     #membuka file dan merekamnya dalam variabel arsip
-start_time = time.time()
 lines = text.readlines()
+start_time = time.time()
 
 # inisialisasi array
 arr_word = []
